@@ -17,8 +17,9 @@
   float:left; 
   margin-right:20px;
   height:auto;
-  max-width:200;
+  max-width:100%;
   border-right:2px solid #000;
+  text-align: center;
 }
 #two { 
   background-color: white;
@@ -36,7 +37,8 @@
     width:auto;
     border:0;
     height:auto;
-    max-width:100;
-    border-bottom:2px solid #000;    
+    max-width:100%;
+    border-bottom:2px solid #000;   
+    text-align: center; 
   }
 }
