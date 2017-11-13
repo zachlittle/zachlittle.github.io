@@ -16,22 +16,34 @@
   max-width: 100%;
 }
 
+.testimonials {
+  margin-top: 15px;
+  text-align: center;
+}
+
 #one {
   background-color: gray;
   float:left; 
   margin-right:20px;
   height:auto;
-  border-right:2px solid #000;
+  border-bottom:2px solid #000;
   text-align: left;
 }
 #two { 
   background-color: white;
   overflow:hidden;
   margin:10px;
-  border:2px dashed #ccc;
   min-width: 120px;
   min-height:170px;
   text-align:center;
+}
+
+div#two ul {
+  text-align: left;
+}
+
+div#two li {
+  font-size: 20px;
 }
 
 @media screen and (max-width: 500px) {
@@ -46,10 +58,6 @@
 
   h2 {
     font-size: 12px;
-  }
-
-  .scaleimg {
-  max-width: 100%;
   }
 
 }
