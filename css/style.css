@@ -19,7 +19,7 @@
   height:auto;
   max-width:100%;
   border-right:2px solid #000;
-  text-align: center;
+  text-align: left;
 }
 #two { 
   background-color: white;
@@ -33,12 +33,12 @@
 @media screen and (max-width: 500px) {
    #one { 
     float: none;
-    margin-right:0;
+    margin-right:10px;
     width:auto;
     border:0;
     height:auto;
     max-width:100%;
     border-bottom:2px solid #000;   
-    text-align: center; 
+    text-align: left; 
   }
 }
