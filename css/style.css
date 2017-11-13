@@ -2,6 +2,8 @@
   text-align:center;
 }
 
+
+
 .wrapper { 
   border : 2px solid #000; 
   overflow:hidden;
@@ -46,6 +48,11 @@ div#two li {
   font-size: 20px;
 }
 
+body {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 @media screen and (max-width: 500px) {
    #one { 
     float: none;
@@ -58,6 +65,11 @@ div#two li {
 
   h2 {
     font-size: 12px;
+  }
+
+  body {
+    margin-left: 5%;
+    margin-right: 5%;
   }
 
 }
