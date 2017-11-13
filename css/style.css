@@ -27,7 +27,7 @@
   text-align:center;
 }
 
-@media screen and (max-width: 596px) {
+@media screen and (max-width: 500px) {
    #one { 
     float: none;
     margin-right:0;
