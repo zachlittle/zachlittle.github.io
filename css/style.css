@@ -31,13 +31,13 @@
   text-align:center;
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 750px) {
    #one { 
     float: none;
     margin-right:10px;
     border:0;
     height:auto;
-    max-width:100%;
+    max-width:100px;
     border-bottom:2px solid #000;   
     text-align: left; 
   }
