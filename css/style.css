@@ -154,11 +154,10 @@ div#two li {
   }
 
   .button {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin: auto;
+    display: block;
     background:coral;
-    padding:4em 2em;
+    padding:1em 2em;
     color:#fff;
     border:0;
     float: ;
