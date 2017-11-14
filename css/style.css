@@ -154,8 +154,8 @@ div#two li {
   }
 
   .button {
-    margin-top: 10px;
     margin: auto;
+    margin-top: 10px;
     display: block;
     background:#2eb2ff;
     padding:1em 2em;
@@ -198,6 +198,7 @@ div#two li {
     background:#2eb2ff;
     padding:15px;
     color:#fff;
+    text-align: center;
   }
 
   .modal-body{
