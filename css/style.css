@@ -46,6 +46,48 @@ div#two li {
   display: none;
 }
 
+.modal-content {
+  display: none;
+  background-color:#f4f4f4;
+  margin: 20% auto;
+  width:70%;
+  box-shadow: 0 5px 8px 0 rgba(0,0,0,0.2),0 7px 20px 0 rgba(0,0,0,0.17);
+  animation-name:modalopen;
+  animation-duration:1s;
+}
+
+.modal-header h2, .modal-footer h3  {
+  display: none;
+  margin:0;
+}
+.modal-header{
+  display: none;
+  background:coral;
+  padding:15px;
+  color:#fff;
+}
+
+.modal-body{
+  display: none;
+  padding:10px 20px;
+}
+
+.modal-footer{
+  display: none;
+  background:coral;
+  padding:10px;
+  color:#fff;
+  text-align: center;
+}
+
+.closeBtn{
+  display: none;
+  color:#ccc;
+  float: right;
+  font-size:30px;
+  color:#fff;
+}
+
 
 @media screen and (max-width: 500px) {
    #one { 
@@ -136,6 +178,7 @@ div#two li {
   }
 
   .modal-content {
+    display: block;
     background-color:#f4f4f4;
     margin: 20% auto;
     width:70%;
@@ -145,19 +188,23 @@ div#two li {
   }
 
   .modal-header h2, .modal-footer h3  {
+    display: block;
     margin:0;
   }
   .modal-header{
+    display: block;
     background:coral;
     padding:15px;
     color:#fff;
   }
 
   .modal-body{
+    display: block;
     padding:10px 20px;
   }
 
   .modal-footer{
+    display: block;
     background:coral;
     padding:10px;
     color:#fff;
@@ -165,6 +212,7 @@ div#two li {
   }
 
   .closeBtn{
+    display: block;
     color:#ccc;
     float: right;
     font-size:30px;
@@ -172,6 +220,7 @@ div#two li {
   }
 
   .closeBtn:hover,.closeBtn:focus{
+    display: block;
     color:#000;
     text-decoration: none;
     cursor:pointer;
