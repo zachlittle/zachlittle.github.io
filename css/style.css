@@ -156,11 +156,10 @@ div#two li {
   .button {
     margin: auto;
     display: block;
-    background:coral;
+    background:#2eb2ff;
     padding:1em 2em;
     color:#fff;
     border:0;
-    float: ;
   }
 
   .button:hover {
