@@ -154,6 +154,7 @@ div#two li {
   }
 
   .button {
+    margin-top: 10px;
     margin: auto;
     display: block;
     background:#2eb2ff;
@@ -194,7 +195,7 @@ div#two li {
   }
   .modal-header{
     display: block;
-    background:coral;
+    background:#2eb2ff;
     padding:15px;
     color:#fff;
   }
@@ -206,7 +207,7 @@ div#two li {
 
   .modal-footer{
     display: block;
-    background:coral;
+    background:#2eb2ff;
     padding:10px;
     color:#fff;
     text-align: center;
