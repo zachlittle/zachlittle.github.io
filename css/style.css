@@ -22,6 +22,24 @@
   text-align: center;
 }
 
+.findings-content {
+  text-align: center;
+}
+
+.findingsimg {
+  max-width: 60%;
+}
+
+nav a {
+  background: #00ADEF;
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  margin-right: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 #two { 
   background-color: white;
   overflow:hidden;
