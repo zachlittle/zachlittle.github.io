@@ -22,12 +22,6 @@
   text-align: center;
 }
 
-.mysales {
-  margin-top: 15px;
-  text-align: center;
-  background: #00ADEF;
-}
-
 .findings-content {
   text-align: center;
 }
@@ -262,3 +256,21 @@ div#two li {
 
 /* Following animation code for modal lightbox learned from Traversy Media youtube channel @ https://www.youtube.com/watch?v=6ophW7Ask_0&index=1&list=PLZ2kNeOpJXx8w4pyrIsTashHrBtDRo2am&t=495s
 */ 
+
+.mysales {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  background: #00ADEF;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+
+.headshot {
+  margin-top: 15px;
+  text-align: center;
+  color: white;
+  background: #00ADEF;
+  margin-left: 2%;
+  margin-right: 2%;  
+}
